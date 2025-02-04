@@ -1,10 +1,14 @@
-import FormControl, { FormControlProps } from '@mui/material/FormControl';
-import FormHelperText, {
-  FormHelperTextProps,
-} from '@mui/material/FormHelperText';
-import InputLabel, { InputLabelProps } from '@mui/material/InputLabel';
-import MuiSelect, { SelectProps as MuiSelectProps } from '@mui/material/Select';
-import { FieldProps, getIn } from 'formik';
+import { 
+  type FormHelperTextProps,
+  type FormControlProps,
+  type InputLabelProps,
+  type SelectProps as MuiSelectProps,
+  FormControl,
+  FormHelperText,
+  InputLabel,
+  Select as MuiSelect,
+} from "@mui/material";
+import { type FieldProps, getIn } from 'formik';
 import * as React from 'react';
 
 export interface SelectProps

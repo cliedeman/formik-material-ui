@@ -1,8 +1,9 @@
 import * as React from 'react';
-import MuiTextField, {
-  TextFieldProps as MuiTextFieldProps,
-} from '@mui/material/TextField';
-import { FieldProps, getIn } from 'formik';
+import {
+  type TextFieldProps as MuiTextFieldProps,
+  TextField as MuiTextField
+} from '@mui/material';
+import { type FieldProps, getIn } from 'formik';
 
 export interface TextFieldProps
   extends FieldProps,
