@@ -1,8 +1,9 @@
 import * as React from 'react';
-import MuiToggleButtonGroup, {
-  ToggleButtonGroupProps as MuiToggleButtonGroupProps,
-} from '@mui/material/ToggleButtonGroup';
-import { FieldProps } from 'formik';
+import { 
+  type ToggleButtonGroupProps as MuiToggleButtonGroupProps,
+  ToggleButtonGroup as MuiToggleButtonGroup
+} from "@mui/material";
+import type { FieldProps } from 'formik';
 import invariant from 'tiny-warning';
 
 export interface ToggleButtonGroupProps

@@ -1,9 +1,10 @@
 import * as React from 'react';
-import MuiCheckbox from '@mui/material/Checkbox';
-import FormControlLabel, {
-  FormControlLabelProps as MuiFormControlLabelProps,
-} from '@mui/material/FormControlLabel';
-import { FieldProps } from 'formik';
+import { 
+  type FormControlLabelProps as MuiFormControlLabelProps,
+  Checkbox as MuiCheckbox,
+  FormControlLabel,
+} from '@mui/material';
+import type { FieldProps } from 'formik';
 
 import { CheckboxProps, fieldToCheckbox } from './Checkbox';
 

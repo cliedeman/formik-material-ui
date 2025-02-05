@@ -1,8 +1,9 @@
 import * as React from 'react';
-import MuiAutocomplete, {
-  AutocompleteProps as MuiAutocompleteProps,
-} from '@mui/material/Autocomplete';
-import { FieldProps } from 'formik';
+import { 
+  type AutocompleteProps as MuiAutocompleteProps,
+  Autocomplete as MuiAutocomplete,
+} from '@mui/material';
+import type { FieldProps } from 'formik';
 import invariant from 'tiny-warning';
 
 export type { AutocompleteRenderInputParams } from '@mui/material/Autocomplete';

@@ -1,6 +1,9 @@
 import * as React from 'react';
-import MuiSwitch, { SwitchProps as MuiSwitchProps } from '@mui/material/Switch';
-import { FieldProps } from 'formik';
+import {
+  type SwitchProps as MuiSwitchProps,
+  Switch as MuiSwitch, 
+} from '@mui/material';
+import type { FieldProps } from 'formik';
 import invariant from 'tiny-warning';
 
 export interface SwitchProps
